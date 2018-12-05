@@ -21,10 +21,6 @@ class MyPagerAdapter extends FragmentStatePagerAdapter {
     public void setPrimaryItem(ViewGroup container, int position, Object object) {
         super.setPrimaryItem(container, position, object);
         ArticleDetailFragment fragment = (ArticleDetailFragment) object;
-        /*if (fragment != null) {
-            mActivity.setmSelectedItemUpButtonFloor(fragment.getUpButtonFloor());
-            mActivity.updateUpButtonPosition();
-        }*/
     }
 
     @Override
